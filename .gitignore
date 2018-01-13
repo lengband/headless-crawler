@@ -10,5 +10,7 @@ yarn-error.log*
 build/
 /mn/*
 /screenshot/*
+!/mn
+!/screenshot
 # Dependency directories
 node_modules/
