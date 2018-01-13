@@ -8,9 +8,6 @@ yarn-error.log*
 .idea/
 .DS_Store
 build/
-/mn/*
-/screenshot/*
-!/mn
-!/screenshot
+
 # Dependency directories
 node_modules/
