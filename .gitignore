@@ -1,13 +1,2 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-*.swp
-.idea/
-.DS_Store
-build/
 
-# Dependency directories
 node_modules/
