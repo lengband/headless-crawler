@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const { mn } = require('./config/default');
+const { mn, searchName } = require('./config/default');
 const srcToImg = require('./helper/srcToImg');
 
 (async _ => {
@@ -13,7 +13,7 @@ const srcToImg = require('./helper/srcToImg');
     })
     console.log('reset viewport')
     await page.focus('#kw')
-    await page.keyboard.sendCharacter('狗')
+    await page.keyboard.sendCharacter(searchName)
     await page.click('.s_search')
     console.log('go to search list')
     page.on('load', async _ => {
